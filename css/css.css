@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document 初始化*/
+html,body{width:100%;margin:0px; padding:0px; font-family:"微软雅黑"; font-size:13px; color:#6ac4de; -webkit-text-size-adjust:none  }
+body{background:#fff;}
+input,a{outline: none;}
+ul,ol,dl,dd{list-style:none; margin:0px; padding:0px;}
+img{border:0px;}
+ textarea{resize:none;border: 1px solid #D6D5D5;}
+a{text-decoration:none; color:#626262;font-family:"微软雅黑"; outline:none;}
+a:hover{color:#87d0e3;}
+form,h1,h2,h3,h4,h5,p,span,input,select{margin: 0px;padding:0px;font-family:"微软雅黑";}
+input:-webkit-autofill {
+ -webkit-box-shadow: 0 0 0px 1000px #ededed inset;
+ border: 1px solid #ededed!important;
+}
+.wrap
+{
+	width:1000px;
+	margin:0 auto;
+}
+.top
+{
+	height:85px;
+	padding:20px 0 0 0;
+	position:relative;
+}
+.login
+{
+	width:140px;
+	height:60px;
+	padding:25px 0 0 0;
+	float:left;
+}
+.left
+{
+	width:500px;
+	height:40px;
+	float:left;
+	margin-top:25px;
+	padding:20px;
+}
+.left li
+{
+	width:160px;
+	height:40px;
+	line-height:20px;
+	float:left;
+	text-align:center;
+}
+.left li.bo
+{
+	border-right:1px solid #6bc4df;
+	}
+.left a
+{
+	width:160px;
+	height:40px;
+	cursor:pointer;
+	color:#6ac4de;}
+.left span
+{
+	width:2px;
+	height:20px;
+	background:#6ac4de;}
+.right
+{
+	width:200px;
+	height:85px;
+	position:absolute;
+	right:0;
+}
+
+.weizhi,.car
+{
+	width:13px;
+	height:13px;
+	margin:0 7px 0 0;
+}
+.right ul a
+{
+	color:#6ac4de;}
+.right li
+{   
+    width:50px;
+	height:35px;
+	float:left;
+	text-align:center;
+	
+}
+.lianxi
+{
+	width:110px;
+	height:23px;
+	text-align:center;
+	line-height:25px;
+	margin:top;
+	
+}
+.tel
+{
+	width:15px;
+	height:15px;
+	margin-left:30px;}
+.search
+{
+	width:110px;
+	height:23px;
+	border:1px #6ac4de solid;
+	background:#FFF;
+	margin-left:30px;
+	line-height:27px;
+	margin-top:5px;
+}
+.search img
+{width:22px;
+ height:23px;
+ display:inline-block;
+ float:left;}
+ .search input
+{width:83px;
+ height:23px;
+ float:left;
+ border:none;
+}
+.content{
+	width:996px;
+	height:450px;
+	border:1px solid #000;
+	margin-top:30px;
+	overflow:hidden;
+	position:relative;
+	}
+.content ul
+{
+	width:10000px;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+.content ul li
+{
+	float:left;}
+.prev,.next
+{
+	width:40px;
+	height:40px;
+	position:absolute;
+	top:40%;
+	background:#999;
+	opacity:0.5;
+	color:#FFF;
+	font-size:50px;
+	line-height:40px;
+	text-align:center;
+	cursor:pointer;
+}
+.prev
+{
+	left:20px;
+}
+.next{
+	right:20px;
+	}
+.sp
+{
+	width:300px;
+	position:absolute;
+	bottom:10px;
+	left:40%}
+.smal
+{
+	width: 12px;
+    height: 12px;
+    display:inline-block;
+	border:2px solid #999;
+	border-radius:50%;
+    margin: 0 5px;
+    cursor: pointer;
+	text-indent:-20em;
+	overflow:hidden;
+    
+}
+.current
+{  
+	background:#333;}
+/*cake*/
+.cake
+{  height:272px;
+	margin-top:20px;}
+
+.cake img{
+	transition: all 1s ease 0s;
+	width:325px;
+	height:220px;
+	}
+.tu1,.tu2,.tu3
+{
+	width:325px;
+	height:270px;
+	float:left;
+	margin-right:6px;
+}
+.tu3,
+{ 
+	float:right;}
+.ti1,.ti2,.ti3,.ti4,.ti5,.ti6{
+	width:325px;
+	height:220px;
+	overflow:hidden;
+	}
+.tz
+{
+	width:325px;
+	height:50px;
+	background:#87d0e3;
+	color:#FFF;
+}
+.tz a
+{
+	width:100%;
+	height:100%;
+	cursor:pointer;
+	color:#FFF;
+}
+.tz a p{
+	height: 27px;
+	box-sizing: border-box;
+    padding: 0px 0px 0px 15px;
+	cursor:pointer;
+	line-height:27px;}
+.tz a label{
+	font-size: 12px;
+    padding: 0px 0px 0px 15px;
+	cursor:pointer;
+}
+/*cake结束*/
+/*viedo*/
+.vz{
+	height:420px;
+	margin-top:20px;
+}
+.contect
+{
+	width:240px;
+	height:420px;
+	background:url(../imags/zi.jpg);
+	float:left;}
+.video
+{
+	width:740px;
+	height:420px;
+	float:right;
+}
+/*viedo结束*/
+.help
+{  width:980px;
+	height:120px;
+	background:#CCC;
+    margin-top:20px;
+	}
+.zx
+{
+	width:980px;
+	height:30px;
+	line-height:30px;
+	cursor:pointer;
+	color:#000;
+	padding-left:30px;
+	}
+.zc{
+	height:90px;
+	background:#000;
+	padding:15px 0 0 80px;
+	}
+.zc dt
+{
+	font-family:"微软雅黑"
+	font-size:19px;
+	color:#666;}
+/* 版权信息 */
+.fcopy{
+        		width: 100%;
+        		height: 100%;
+        	}
+        	.fcopy .banquan{
+        		margin-top: 50px;
+			  	font-size: 17px;
+			  	margin-bottom: 50px;
+			  	margin-left: 50px;
+        	}
+			  .fcopy ul{
+			  	width: 50%;
+			  	height: 100%;
+			  	margin: 0 auto;
+			  }
+			  .fcopy ul li{
+			  	float: left;
+			  	margin-right: 30px;
+			  }
+			  .sp table a{
+			  	color: red;
+			  }
